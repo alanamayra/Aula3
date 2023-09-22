@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
                 stringList.add(inputText)
                 adapter.notifyDataSetChanged()
                 editText.text.clear()
-
             } else {
                 Toast.makeText(this, "Digite uma string válida", Toast.LENGTH_SHORT).show()
             }
